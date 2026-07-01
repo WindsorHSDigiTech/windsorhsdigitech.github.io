@@ -7,3 +7,6 @@ img {
 table {
   background-color: bisque;
 }
+thead {
+  font-weight: bold;
+}
