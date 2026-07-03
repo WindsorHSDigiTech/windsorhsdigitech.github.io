@@ -1,0 +1,66 @@
+body {
+    background-color: #E8F0FF;
+    font-family: Arial, sans-serif;
+    color: #4B0082;
+}
+
+/* Reusable box style */
+.box {
+    border: 2px solid #003366;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #FFFFFF;
+}
+
+/* Heading box uses navy border */
+.heading-box {
+    border-color: #003366;
+}
+
+.heading-box h1 {
+    color: #003366;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Paragraph box uses purple border */
+.paragraph-box {
+    border-color: #4B0082;
+}
+
+.paragraph-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Table styling */
+.product-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    border: 2px solid #003366; /* navy border around the whole table */
+}
+
+.product-table th {
+    background-color: #DCE6FF; /* soft blue header */
+    color: #003366;            /* navy text */
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #4B0082; /* deep purple faint lines */
+}
+
+.product-table td {
+    padding: 10px;
+    border: 1px solid #4B0082; /* deep purple faint lines between cells */
+    color: #4B0082;            /* matches your body text */
+}
+
+.product-table img {
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid #003366; /* optional: navy outline around images */
+}
