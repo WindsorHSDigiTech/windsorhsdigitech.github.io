@@ -1,0 +1,86 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo"> The SamLili Fidget Shop </div>
+  <nav>
+    <!-- Buttons that mimic page links -->
+    <button id="nav-shop-btn" class="nav-link active">Shop</button>
+    <button id="nav-cart-btn" class="nav-link">View Cart <span id="cart-count">0</span></button>
+  </nav>
+</header>
+
+<div class="container">
+  
+  <!-- ================= SHOP PAGE SCREEN ================= -->
+  <main id="shop-page">
+    <h2 class="section-title">Pop, Spin & Click Your Stress Away!</h2>
+    <div class="products-grid">
+      
+      <div class="product-card" data-id="1" data-name="SamLili Purple Fidget Hexagon" data-price="2.50">
+        <div class="img-container">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBEMt3_BJnRD4aBFaQ0M_o96593cZVsO6jfV5RACYETQ&s=10" alt="Spinner">
+        </div>
+        <h3>SamLili Purple Fidget Hexagon</h3>
+        <p class="price">$2.50</p>
+        <button class="add-to-cart-btn">Add to Cart 🛍️</button>
+      </div>
+
+      <div class="product-card" data-id="2" data-name="SamLili Octopus Fidget Blue" data-price="5">
+        <div class="img-container">
+          <img src="https://sensorystreet.com.au/cdn/shop/products/YPSO-sensory-Octopus-on-hand.jpg?v=1682078184" alt="Pop-It">
+        </div>
+        <h3>SamLili Octopus Fidget Blue</h3>
+        <p class="price">$5</p>
+        <button class="add-to-cart-btn">Add to Cart 🛍️</button>
+      </div>
+
+      <div class="product-card" data-id="2" data-name=" SamLili Pink Fidget Dragon" data-price="5.50">
+        <div class="img-container">
+          <img src="https://csg.us-east-1.prd.tinkercad.com/things/hBgzTqK4uey/t725.png?rev=1666988434446000000&s=&v=1" alt="Pop-It">
+        </div>
+        <h3>SamLili Pink Fidget Dragon</h3>
+        <p class="price">$5.50</p>
+        <button class="add-to-cart-btn">Add to Cart 🛍️</button>
+      </div>
+
+      <div class="product-card" data-id="2" data-name="SamLili Gradient Sprial Cone Fidget" data-price="2">
+        <div class="img-container">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDBBsxGEL7Dai0bLawf48dZ9IaABzD4oHSpBGEwMnIoQ&s" alt="Pop-It">
+        </div>
+        <h3>SamLili Gradient Spiral Cone Fidget</h3>
+        <p class="price">$2</p>
+        <button class="add-to-cart-btn">Add to Cart 🛍️</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ================= CART PAGE SCREEN ================= -->
+  <main id="cart-page" class="hidden">
+    <h2 class="section-title">Your Shopping Basket</h2>
+    <div class="cart-wrapper">
+      <div id="cart-items-list"></div>
+      
+      <div class="cart-summary-box">
+        <h3>Order Summary</h3>
+        <hr>
+        <div class="summary-row">
+          <span>Total Items:</span>
+          <span id="summary-qty">0</span>
+        </div>
+        <div class="summary-row total-row">
+          <span>Grand Total:</span>
+          <span id="summary-price">$0.00</span>
+        </div>
+        <button class="checkout-btn" id="checkout-btn">Proceed to Checkout 🔒</button>
+        <button class="clear-btn" id="clear-btn">Empty Cart 🗑️</button>
+      </div>
+    </div>
+  </main>
+  
+</div>
+
+    <script src="script.js" defer></script>
+</body>
