@@ -1,0 +1,31 @@
+h1, h2, h3 {color:purple}
+body {
+  background-color: lavender;
+}
+.product {
+  background-color: white;
+  width: 240px;
+  text-align: center;
+  border: solid 1px purple;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+}
+.product img {
+  height:200px;
+}
+.product h2 {
+  line-height: 4px;
+}
+
+.product.po {
+  background-color: white;
+}
+.product.sale {
+  background-color: pink;
+  border: solid 1px red;
+}
+.product.sale p:nth-of-type(2) {
+  font-weight: bold;
+  color: red;
+}
