@@ -1,4 +1,7 @@
-h1, h2, h3 {color:purple}
+h1, h2, h3, label, input {
+  color:purple;
+  text-align: center;
+}
 body {
   background-color: lavender;
 }
