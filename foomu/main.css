@@ -9,10 +9,11 @@ body {
   border: solid 1px purple;
   float: left;
   margin: 10px;
+  padding: 10px;
   overflow: hidden;
 }
 .product img {
-  height:200px;
+  width:200px;
 }
 .product h2 {
   line-height: 4px;
