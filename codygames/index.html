@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cody's Games</title>
+  <link href="main.css" rel=stylesheet>
+</head>
+<body>
+<form action="https://order-dmlykmu6rq-ts.a.run.app/" method="POST">
+
+  <header>
+    <h1>Cody's Games</h1>
+    <p class="tagline">You buy, we supply</p>
+        <label for="nickname">Enter a nickname for your order:</label>
+    <input  type="text" id="nickname" required>
+    <input type="hidden" name="team"value="teamsim">
+
+  </header>
+  
+  <main class="games-grid">
+    <!-- Game 1 -->
+    <div class="game-card">
+      <div class="image-container">
+        <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/MichaelinGTA5isshown.jpg" alt="Grand Theft Auto V">
+      </div>
+      <div class="card-content">
+        <h2 class="game-title">Grand Theft Auto V</h2>
+        <div class="game-price">$29.99</div>
+        <input type="number" id="quantity1" name="quantity1" value="1" min="1" max="10" required>
+<button type="submit" name="product1" value="butterfly comb">Buy</button>
+      </div>
+    </div>
+
+    <!-- Game 2 -->
+    <div class="game-card">
+      <div class="image-container">
+        <!-- Replace src with actual image URL later -->
+        <span class="placeholder-img">Minecraft Image</span>
+      </div>
+      <div class="card-content">
+        <h2 class="game-title">Minecraft</h2>
+        <div class="game-price">$26.95</div>
+<input type="number" id="quantity1" name="quantity1" value="1" min="1" max="10" required>
+<button type="submit" name="product1" value="butterfly comb">Buy</button>      </div>
+    </div>
+    <!-- Game 3 -->
+    <div class="game-card">
+      <div class="image-container">
+        <!-- Replace src with actual image URL later -->
+        <span class="placeholder-img">Red Dead Redemption Image</span>
+      </div>
+      <div class="card-content">
+        <h2 class="game-title">Red Dead Redemption 2</h2>
+        <div class="game-price">$59.99</div>
+<input type="number" id="quantity1" name="quantity1" value="1" min="1" max="10" required>
+<button type="submit" name="product1" value="butterfly comb">Buy</button>      </div>
+    </div>
+  </main>
+  </form>
+</body>
+</html>
