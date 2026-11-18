@@ -1,0 +1,10 @@
+h1 {color: blue}
+.product {
+ background-color: beige;
+width: 240px;
+text-align: center;
+border: solid 1px yellow;
+float: left;
+margin: 10px;
+overflow: hidden;
+}
