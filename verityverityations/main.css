@@ -1,0 +1,17 @@
+h1, h2, h3, label {
+  color:pink;
+  text-align: center;
+}
+body {
+  background-color: white;
+ }
+.product {
+  background-color: lavender;
+  width: 300px;
+  text-align: left;
+  border: solid 1px purple;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
