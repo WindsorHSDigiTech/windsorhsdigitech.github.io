@@ -1,0 +1,27 @@
+h1{ 
+    color : pink ;
+    font-size : 48px;
+background-color : lightblue ;
+}
+p{
+color : pink ; 
+font-weight : bold ;}
+.product {
+  background-color : beige ; 
+  width: 240px;
+  text-align: centre ; 
+  border: soild 1px yellow; 
+  float: left; 
+  margin: 10px ;
+    overflow: hidden;
+}
+.product img { 
+  height: 200px;
+}
+  .product h2 { 
+    line-height: 4px 
+  } 
+  .product.po {
+    background-color: white;
+  }
+  
