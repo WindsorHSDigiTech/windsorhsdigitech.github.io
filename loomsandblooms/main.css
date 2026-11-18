@@ -1,0 +1,21 @@
+h1 {
+  color:pink;
+  font-size: 50px;
+  background-color: lightyellow;
+}
+p {
+  color:pink;
+  font-weight: bold;
+}
+.product {
+  width:240px;
+  float:left;
+  text-align: center;
+  border:solid 1px pink;
+  background-color:lightyellow;
+}
+.product img {
+  height:200px;
+  width:200px;
+}
+
