@@ -1,0 +1,27 @@
+h1 { 
+  color:red;
+  font-size: 48px; 
+  background-color: lightblue;
+}
+p { 
+  color:green;
+  font-weight: bold;
+ 
+} 
+.product { 
+background-color: beige;
+width: 240px; 
+  
+text-align: center; 
+  border: solid 1px yellow;
+  float: left;
+  margin: 10px ;
+  overflow: hidden; 
+} 
+.product ing { 
+  hight:200px; 
+  
+}
+.product h2 {
+  line-highr: 4px;
+} 
