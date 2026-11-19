@@ -1,0 +1,16 @@
+h1{ 
+  color: purple;
+  font-size:50px;
+  background-color: lightpink;
+}
+p {
+  color:purple;
+  font-weight:bold;
+}
+.product {
+  color:purple;
+  background-color: pink;
+  width:340px;
+  height:340px;
+  float:left;
+}
