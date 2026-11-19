@@ -1,0 +1,16 @@
+h1 {color:black}
+.product {
+  background-color: beige;
+  width: 540px;
+  text-align: center;
+  border: solid 1px yellow;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+}
+.product img {
+  height:200px;
+}
+.product h2 {
+  line-height: 4px;
+}
