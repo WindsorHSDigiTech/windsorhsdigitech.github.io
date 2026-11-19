@@ -1,0 +1,12 @@
+h1 {color:green}
+.product {
+  background-colour: light blue;
+  width: 240px;
+  text-align: center;
+  border: soild 1px yellow;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+}
+.product img {
+}
