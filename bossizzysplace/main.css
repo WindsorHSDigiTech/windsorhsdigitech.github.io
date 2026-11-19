@@ -1,0 +1,11 @@
+  h1 {color: red}
+  p { color:blue; font-size: xx-large}
+.product {
+  background-color: beige;
+  width:240px;
+  text-align: center;
+  border: solid 1px yellow;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+}
