@@ -1,0 +1,11 @@
+h1 { color: pink; font-size: xx-large }
+p { color: purple; font-size: x-large }
+td { width:200px; border: solid 2px }
+#dump {background-color: pink }
+#ok {background-color: yellow }
+
+.product {
+ width: 240px;
+  float:left;
+  height: 240px;
+}
