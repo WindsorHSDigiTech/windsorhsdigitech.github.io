@@ -1,0 +1,20 @@
+h1 {color: green}
+p {font-size: xx-large ;color: lime}
+h2 {font-size: xx-large ; color: purple}
+td { width:200px; border: solid 2px }
+body {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4bdd888b-fe5c-4358-8c46-5362c7ce3154/dehn7hz-56d75669-c27f-4d2b-8e30-91dc2c542e4c.jpg/v1/fill/w_1280,h_720,q_75,strp/cool_gaming_background_4k_by_skullbreaker000_dehn7hz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mLzRiZGQ4ODhiLWZlNWMtNDM1OC04YzQ2LTUzNjJjN2NlMzE1NC9kZWhuN2h6LTU2ZDc1NjY5LWMyN2YtNGQyYi04ZTMwLTkxZGMyYzU0MmU0Yy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.9DC9Pg8sHY0nycuojcGkBTqHBMTmaea3fEl4YLS4da0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product{
+  width: 280px;
+  height: 460px;
+  float:left;
+  margin:10px;
+  border:solid 3px white;
+  text-align:center;
+}
+label{font-size: xx-large ;
+  color : purple;}
