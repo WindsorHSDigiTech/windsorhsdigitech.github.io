@@ -1,0 +1,16 @@
+.product {
+  background-color: beige;
+  width: 240px;
+  text-align: center;
+  border: solid 1px black;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+}
+.product img {
+  height:200px;
+}
+.product {
+  line-height: 4px;
+}
+  
